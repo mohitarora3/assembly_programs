@@ -7,7 +7,7 @@ data segment
     NOT_FOUND db 'ELEMENT NOT FOUND $'
     ele db 2				    ;ele variable stores the element to be searched
     first dw 0
-    last dw 4 
+    last dw 4 					;last variable stores the last index of array
     two db 2
     
 data ends 
