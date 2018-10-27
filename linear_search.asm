@@ -24,13 +24,13 @@ code segment
           
          xor ax,ax		;initializing ax register with value 0
          mov cx,5
-         mov bl,2
+         mov bl,2		
          mov si,-1
 			
     
     next: 
         inc si       
-        mov al,array[si]
+        mov al,array[si]		;fetching next array element	
         cmp al,ele
         je present			;if search is successful
         loop next
